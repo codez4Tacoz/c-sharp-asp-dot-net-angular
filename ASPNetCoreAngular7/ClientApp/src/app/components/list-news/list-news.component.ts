@@ -15,7 +15,7 @@ export class ListNewsComponent implements OnInit {
     numItemsTotal: number;
     numPagesTotal: number;
     pageNum: number = 1;
-    pageSize: number = 10;
+    pageSize: number = 15;
     pageIds: number[];
     pageItems: Article[];
     pageStartItemNum: number;

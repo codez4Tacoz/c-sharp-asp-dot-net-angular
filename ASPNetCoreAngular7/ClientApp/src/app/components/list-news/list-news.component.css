@@ -2,7 +2,7 @@
     height: 80vh;
     width: 70vw;
 }
-@media (max-width: 575px) {
+@media (max-width: 768px) {
     .bodyContent_tablePage {
         height: 80vh;
         width: 90vw;
