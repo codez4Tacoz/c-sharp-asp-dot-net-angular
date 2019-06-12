@@ -19,7 +19,7 @@
             <div class="col">
                 <p class="bodyContent_tablePage_tableItemsLabel">
                     Displaying Items {{pageStartItemNum}} - {{pageEndItemNum}} of {{numItemsTotal}} Items.
-            </p>
+                </p>
             </div>
         </div>
         <div class="row">
@@ -45,23 +45,31 @@
                 </table>
             </div>
         </div>
-        <div class="row">
+        <div class="row no-gutters justify-content-between">
             <div class="col">
-                <ngb-pagination [(page)]="pageNum"
-                                [pageSize]="pageSize"
-                                [collectionSize]="numItemsTotal"
-                                [directionLinks]="true"
-                                [boundaryLinks]="true"
-                                [size]="sm"
-                                [maxSize]="1"
-                                [ellipses]="false"
-                                [rotate]="true"
-                                (pageChange)="loadPage($event)">
-                </ngb-pagination>
+                <label class="bodyContent_tablePage_tableFooter_Label float-left">
+                    Number of items per page:
+                    <select (change)="changePageSize($event.target.value)" class="std-select">
+                        <option *ngFor="let x of pageSizeNums" value="{{x}}">{{x}}</option>
+                    </select>
+                </label>
             </div>
-
+            <div class="col">
+                <div class="float-right">
+                    <ngb-pagination [(page)]="pageNum"
+                                    [pageSize]="pageSize"
+                                    [collectionSize]="numItemsTotal"
+                                    [directionLinks]="true"
+                                    [boundaryLinks]="true"
+                                    [size]="sm"
+                                    [maxSize]="1"
+                                    [ellipses]="false"
+                                    [rotate]="true"
+                                    (pageChange)="loadPage($event)">
+                    </ngb-pagination>
+                </div>
+            </div>
         </div>
-
 
     </div>
 </div>

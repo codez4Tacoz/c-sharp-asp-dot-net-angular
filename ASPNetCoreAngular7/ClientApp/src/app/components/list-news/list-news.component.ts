@@ -21,11 +21,22 @@ export class ListNewsComponent implements OnInit {
     pageStartItemNum: number;
     pageEndItemNum: number;
 
+    pageSizeNums: number[] = [10,25,50];
+
     constructor(private newsService: NewsServiceService) {
     }
 
     ngOnInit() {
         this.loadPage();
+    }
+
+    changePageSize(newPageSize: number) {
+
+        if (this.pageSize !== newPageSize) {
+            this.pageSize = newPageSize;
+            this.loadPage();
+        }
+        
     }
 
     loadPage() {

@@ -26,3 +26,13 @@
     font-size: small;
     color: darkslategrey;
 }
+
+.bodyContent_tablePage_tableFooter_Label {
+    font-size: small;
+    color: darkslategrey;
+}
+
+.std-select {
+    border-radius: 2px;
+    height: 30px;
+}
