@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\NUnitTestProject1\\NUnitTestsProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\ASPNetCoreAngular7\\HackerNewsApplication.csproj": {
+      "version": "2.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\ASPNetCoreAngular7\\HackerNewsApplication.csproj",
+        "projectName": "ASP.NET Core 2.2 with Angular 7 Template",
+        "projectPath": "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\ASPNetCoreAngular7\\HackerNewsApplication.csproj",
+        "packagesPath": "C:\\Users\\wHack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\ASPNetCoreAngular7\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wHack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\NUnitTestProject1\\NUnitTestsProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\NUnitTestProject1\\NUnitTestsProject.csproj",
+        "projectName": "NUnitTestsProject",
+        "projectPath": "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\NUnitTestProject1\\NUnitTestsProject.csproj",
+        "packagesPath": "C:\\Users\\wHack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\NUnitTestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wHack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\ASPNetCoreAngular7\\HackerNewsApplication.csproj": {
+                "projectPath": "C:\\Users\\wHack\\source\\repos\\ASPNetCoreAngular7\\ASPNetCoreAngular7\\HackerNewsApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

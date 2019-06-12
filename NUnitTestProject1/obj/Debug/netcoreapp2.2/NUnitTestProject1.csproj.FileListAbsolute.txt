@@ -1,0 +1,14 @@
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.deps.json
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.runtimeconfig.json
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.runtimeconfig.dev.json
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.pdb
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csprojAssemblyReference.cache
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.AssemblyInfo.cs
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.pdb

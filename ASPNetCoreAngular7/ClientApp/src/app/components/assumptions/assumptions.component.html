@@ -1,0 +1,23 @@
+<h1>Project Assumptions</h1>
+
+<p>The following assumptions were made during the course of development of this application:</p>
+<ul>
+    <li>The project definition specifically stated which of the Hacker News article attributes to be used, so I did not use any others.</li>
+    <li>While the entirety of this application could have been written in Angular with the services contacting the Hacker News API directly,
+    the verbal request was to write the application in C#, so I assumed you wanted the API written in C#
+    </li>
+    <li>One could have interpreted the instructions quite literally and taken the user, upon title click, to the article.  But, I assumed that opening a 
+    new tab would be ok.
+    </li>
+    <li>The URL attribute is null sometimes, and it appears as though one could, in those cases, take the user to the ycombinator site.  However, 
+    I did not know for sure if such an assumption could be made.  So, in the event of a null url, I simply do not use an anchor tag and merely 
+    display the item title to the user.</li>
+    <li>I assume for the purposes of this excercise that we can trust Hacker News and security implications of blindly using a url can be ignored.</li>
+    <li>There is no usability benefit to returning an error if a negative page number is provided, so I simply documented the controller and replace 
+    any negative pageNumber parameters with page 1.  For demonstration purposes, I went another route with validating the pageSize.</li>
+    <li>While the API states that the 500 top stories are provided.  I assumed that there could be exceptional cases wherein less than 500 ids are returned.
+    This can lead to empty results pages (handled in the UI) as well as a page request for a page that is no longer valid.  In that case, 
+    if the page number requested is higher than the total number of pages, then the api will return the page data for whatever the last page of 
+    results would be (the page number used is always returned in the response).</li>
+</ul>
+

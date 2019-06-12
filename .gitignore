@@ -1,0 +1,37 @@
+.vs/
+ASPNetCoreAngular7/ClientApp/node_modules/
+NUnitTestProject1/bin/
+NUnitTestProject1/obj/
+ASPNetCoreAngular7/bin/
+ASPNetCoreAngular7/obj/
+
+
+# NuGet Packages
+
+*.nupkg
+
+# Build results
+
+[Dd]ebug/
+
+[Dd]ebugPublic/
+
+[Rr]elease/
+
+[Rr]eleases/
+
+x64/
+
+x86/
+
+build/
+
+bld/
+
+bin/
+
+Bin/
+
+obj/
+
+Obj/

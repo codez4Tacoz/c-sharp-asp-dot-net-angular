@@ -1,0 +1,67 @@
+
+<div class="bodyContent_tablePage">
+    <div class="row bodyContent_tablePage_header">
+        <div class="col">
+            <h2>Latest Hacker News Stories</h2>
+        </div>
+    </div>
+
+    <div *ngIf="!pageIds" class="row text-center align-middle bodyContent_tablePage_tablePlaceholder">
+        <div class="col">
+            <p *ngIf="!emptyItemsMessage">Loading...</p>
+            <p *ngIf="emptyItemsMessage">
+                {{emptyItemsMessage}}
+            </p>
+        </div>
+    </div>
+    <div *ngIf="pageIds">
+        <div class="row">
+            <div class="col">
+                <p class="bodyContent_tablePage_tableItemsLabel">
+                    Displaying Items {{pageStartItemNum}} - {{pageEndItemNum}} of {{numItemsTotal}} Items.
+            </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class='col table table-hover table-sm table-striped'>
+                    <thead class='thead-light'>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of pageItems">
+                            <td *ngIf="item.url">
+                                <a target="_blank" href="{{item.url}}">{{ item.title }} </a>
+                            </td>
+                            <td *ngIf="!item.url">
+                                {{ item.title }}
+                            </td>
+                            <td>{{ item.author }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ngb-pagination [(page)]="pageNum"
+                                [pageSize]="pageSize"
+                                [collectionSize]="numItemsTotal"
+                                [directionLinks]="true"
+                                [boundaryLinks]="true"
+                                [size]="sm"
+                                [maxSize]="1"
+                                [ellipses]="false"
+                                [rotate]="true"
+                                (pageChange)="loadPage($event)">
+                </ngb-pagination>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,28 @@
+.bodyContent_tablePage {
+    height: 80vh;
+    width: 70vw;
+}
+@media (max-width: 575px) {
+    .bodyContent_tablePage {
+        height: 80vh;
+        width: 90vw;
+    }
+}
+.bodyContent_tablePage_header {
+    margin-bottom: 30px;
+}
+
+.bodyContent_tablePage_tablePlaceholder {
+    color: darkslategrey;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: large;
+}
+
+.bodyContent_tablePage_tableItemsLabel {
+    margin-bottom: 5px;
+    font-size: small;
+    color: darkslategrey;
+}

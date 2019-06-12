@@ -1,0 +1,19 @@
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestsProject.deps.json
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestsProject.runtimeconfig.json
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestsProject.runtimeconfig.dev.json
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestsProject.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestsProject.pdb
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestsProject.csprojAssemblyReference.cache
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestsProject.csproj.CoreCompileInputs.cache
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestsProject.AssemblyInfoInputs.cache
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestsProject.AssemblyInfo.cs
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestsProject.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestsProject.pdb
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\ASP.NET Core 2.2 with Angular 7.Views.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\ASP.NET Core 2.2 with Angular 7.Views.pdb
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\ASP.NET Core 2.2 with Angular 7.dll
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\bin\Debug\netcoreapp2.2\ASP.NET Core 2.2 with Angular 7.pdb
+C:\Users\wHack\source\repos\ASPNetCoreAngular7\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestsProject.csproj.CopyComplete

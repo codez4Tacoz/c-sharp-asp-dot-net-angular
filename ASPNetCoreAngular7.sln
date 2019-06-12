@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerNewsApplication", "ASPNetCoreAngular7\HackerNewsApplication.csproj", "{7014690C-1CB3-4E31-9A6A-B35175B8C637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerNewsTests", "NUnitTestProject1\HackerNewsTests.csproj", "{E1CA1D71-6315-41BE-9BE7-C59ED19C2F58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7014690C-1CB3-4E31-9A6A-B35175B8C637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7014690C-1CB3-4E31-9A6A-B35175B8C637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7014690C-1CB3-4E31-9A6A-B35175B8C637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7014690C-1CB3-4E31-9A6A-B35175B8C637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CA1D71-6315-41BE-9BE7-C59ED19C2F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CA1D71-6315-41BE-9BE7-C59ED19C2F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CA1D71-6315-41BE-9BE7-C59ED19C2F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CA1D71-6315-41BE-9BE7-C59ED19C2F58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BCF68B8-A3B6-42B2-9F7D-6AC2D78FCF13}
+	EndGlobalSection
+EndGlobal
